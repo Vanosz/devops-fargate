@@ -17,15 +17,15 @@ This Terraform project launching a new web service that is publicly accessible o
 ---
 
 ## How to deploy via GitHub actions
-*no need any special requirements, but still need the working values for AWS env
+*no special requirements needed, but still need the working values for AWS env
 AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY  
-This values already set "secrets" in github actions settings but haven't any existing values
+This values already set in "secrets" in github actions settings but don't have any existing values
 
 ### Deploy by commit
 - This project has autodeploy by commit to the main, you just need to push smt to the main
 
 ### Manual deploy
-- Just run via UI in github actions a direct button
+- Just run via UI in github actions a direct button "Run workflow"
 
 ## How to deploy manually via Terraform
 
@@ -50,12 +50,12 @@ go to the link below and finish instructions
 ```
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 ```
-after installation of TF client, check it by the next command in the console (should be >= 1.3.0):
+after installation of TF client, check it with the next command in the console (should be >= 1.3.0):
 ```
 terraform --version
 ```
 
-for AWS cli run the next after succesfully done a previous step
+for AWS cli, run the next after succesfully done a previous step
 ```
 aws configure
 ```
