@@ -16,6 +16,17 @@ This Terraform project launching a new web service that is publicly accessible o
 
 ---
 
+## How to deploy via GitHub actions
+*no need any special requirements, but still need the working values for AWS env
+AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY  
+This values already set "secrets" in github actions settings but haven't any existing values
+
+### Deploy by commit
+- This project has autodeploy by commit to the main, you just need to push smt to the main
+
+### Manual deploy
+- Just run via UI in github actions a direct button
+
 ## How to deploy manually via Terraform
 
 ### 1. Basic requirements
